@@ -8,7 +8,7 @@ enum custom_keycodes {
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [0] = LAYOUT( /* Base */
-  COMNUM,  COMPASS,  LCTL(KC_C), LCTL(KC_V) \
+  COMNUM,  COMPASS,  LCTL(KC_C), KC_ENTER \
 ),
 };
 
